@@ -29,6 +29,8 @@ function App() {
       <h2>Let's get started!</h2>
       <p>This is also visible!</p>
       <ExpenseItem title="Toilet Papire" amount="530" date={new Date(2021, 2, 28)}></ExpenseItem>
+      <ExpenseItem title="Toilet Papire" amount="530" date={new Date(2021, 2, 28)}></ExpenseItem>
+      <ExpenseItem title="Toilet Papire" amount="530" date={new Date(2021, 2, 28)}></ExpenseItem>
     </div>
   );
 }
