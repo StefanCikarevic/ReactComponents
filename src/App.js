@@ -1,5 +1,6 @@
-import Expenses from './components/Expenses/Expenses'
-import Card from './components/UI/Card';
+import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
+
 
 function App() {
   const expenses = [
@@ -24,10 +25,16 @@ function App() {
       exponseAmount: 298.66,
     },
   ];
+  const addExpanseHandler = (expense) => {
+    console.log("APP");
+    console.log(expense);
+  };
+
   return (
-    <Card>
+    <div>
+      <NewExpense onAddExpense={addExpanseHandler}></NewExpense>
       <Expenses expenses={expenses}></Expenses>
-    </Card>
+    </div>
   );
 }
 
