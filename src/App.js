@@ -1,7 +1,6 @@
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 
-
 function App() {
   const expenses = [
     {
@@ -28,6 +27,7 @@ function App() {
   const addExpanseHandler = (expense) => {
     console.log("APP");
     console.log(expense);
+    console.log("stefke");
   };
 
   return (
